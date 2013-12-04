@@ -5,8 +5,8 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell" # the standard
-#ZSH_THEME="af-magic" # kind of cool
+#ZSH_THEME="robbyrussell" # the standard
+ZSH_THEME="af-magic" # kind of cool
 #ZSH_THEME="aussiegeek" # kind of cool
 #ZSH_THEME="agnoster"
 
@@ -54,6 +54,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/Users/freidahpatch/.rvm/gems/ruby-2.0.0-p0/bin:/Users/freidahpatch/.rvm/gems/ruby-2.0.0-p0@global/bin:/Users/freidahpatch/.rvm/rubies/ruby-2.0.0-p0/bin:/Users/freidahpatch/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/:/Users/freidahpatch/.rvm/bin:/Users/freidahpatch/.mongodb-osx-x86_64-2.2.2/bin
 
 export PATH=$PATH:~/utilities/:~/utilities/mutt-1.5.20
+export PATH=$PATH:/Users/freidahpatch/utilities/AWS-ElasticBeanstalk-CLI-2.5.1/eb/macosx/python2.7
 export PATH=$PATH:/Users/freidahpatch/Dev/Ruby/bak/bin
 export EDITOR=/usr/bin/vim
 
@@ -64,6 +65,7 @@ ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[green]%}?"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 alias ls="ls -lG"
+alias jobfailures='./tmux-setups/jobfailures'
 
 #zstyle ':completion:*' auto-description 'specify: %d'
 #zstyle ':completion:*' completer _oldlist _expand _complete _ignored _match _prefix
